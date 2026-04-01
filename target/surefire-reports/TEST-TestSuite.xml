@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="0.683" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="0.738" tests="6" errors="0" skipped="0" failures="0">
   <properties>
+    <property name="surefire.suiteXmlFiles" value="fullRegressionTest.xml,smokeTest.xml"/>
     <property name="java.specification.version" value="25"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
@@ -15,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IN"/>
     <property name="sun.boot.library.path" value="C:\Java\jdk-25_windows-x64_bin\jdk-25.0.2\bin"/>
-    <property name="sun.java.command" value="C:\Users\Premshankar Mishra\AppData\Local\Temp\surefire2918497116145342306\surefirebooter-20260331235045406_3.jar C:\Users\Premshankar Mishra\AppData\Local\Temp\surefire2918497116145342306 2026-03-31T23-50-45_266-jvmRun1 surefire-20260331235045406_1tmp surefire_0-20260331235045406_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\Premshankar Mishra\AppData\Local\Temp\surefire9347071054081687659\surefirebooter-20260401000401811_3.jar C:\Users\Premshankar Mishra\AppData\Local\Temp\surefire9347071054081687659 2026-04-01T00-04-01_667-jvmRun1 surefire-20260401000401811_1tmp surefire_0-20260401000401811_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\Premshankar Mishra\Git\TP\Selenium\SeleniumProject_MVN\SeleniumProject_MVN\target\test-classes;C:\Users\Premshankar Mishra\Git\TP\Selenium\SeleniumProject_MVN\SeleniumProject_MVN\target\classes;C:\Users\Premshankar Mishra\.m2\repository\org\seleniumhq\selenium\selenium-java\4.40.0\selenium-java-4.40.0.jar;C:\Users\Premshankar Mishra\.m2\repository\org\seleniumhq\selenium\selenium-api\4.40.0\selenium-api-4.40.0.jar;C:\Users\Premshankar Mishra\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\Premshankar Mishra\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.40.0\selenium-chrome-driver-4.40.0.jar;C:\Users\Premshankar Mishra\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\Premshankar Mishra\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.40.0\selenium-chromium-driver-4.40.0.jar;C:\Users\Premshankar Mishra\.m2\repository\org\seleniumhq\selenium\selenium-json\4.40.0\selenium-json-4.40.0.jar;C:\Users\Premshankar Mishra\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.40.0\selenium-manager-4.40.0.jar;C:\Users\Premshankar Mishra\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v142\4.40.0\selenium-devtools-v142-4.40.0.jar;C:\Users\Premshankar Mishra\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v143\4.40.0\selenium-devtools-v143-4.40.0.jar;C:\Users\Premshankar Mishra\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v144\4.40.0\selenium-devtools-v144-4.40.0.jar;C:\Users\Premshankar Mishra\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.40.0\selenium-edge-driver-4.40.0.jar;C:\Users\Premshankar Mishra\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.40.0\selenium-firefox-driver-4.40.0.jar;C:\Users\Premshankar Mishra\.m2\repository\org\seleniumhq\selenium\selenium-http\4.40.0\selenium-http-4.40.0.jar;C:\Users\Premshankar Mishra\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.40.0\selenium-ie-driver-4.40.0.jar;C:\Users\Premshankar Mishra\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.40.0\selenium-remote-driver-4.40.0.jar;C:\Users\Premshankar Mishra\.m2\repository\com\google\guava\guava\33.5.0-jre\guava-33.5.0-jre.jar;C:\Users\Premshankar Mishra\.m2\repository\com\google\guava\failureaccess\1.0.3\failureaccess-1.0.3.jar;C:\Users\Premshankar Mishra\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Premshankar Mishra\.m2\repository\com\google\errorprone\error_prone_annotations\2.41.0\error_prone_annotations-2.41.0.jar;C:\Users\Premshankar Mishra\.m2\repository\com\google\j2objc\j2objc-annotations\3.1\j2objc-annotations-3.1.jar;C:\Users\Premshankar Mishra\.m2\repository\io\opentelemetry\opentelemetry-api\1.58.0\opentelemetry-api-1.58.0.jar;C:\Users\Premshankar Mishra\.m2\repository\io\opentelemetry\opentelemetry-context\1.58.0\opentelemetry-context-1.58.0.jar;C:\Users\Premshankar Mishra\.m2\repository\io\opentelemetry\opentelemetry-common\1.58.0\opentelemetry-common-1.58.0.jar;C:\Users\Premshankar Mishra\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.58.0\opentelemetry-exporter-logging-1.58.0.jar;C:\Users\Premshankar Mishra\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.58.0\opentelemetry-sdk-common-1.58.0.jar;C:\Users\Premshankar Mishra\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.58.0\opentelemetry-sdk-extension-autoconfigure-spi-1.58.0.jar;C:\Users\Premshankar Mishra\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.58.0\opentelemetry-sdk-extension-autoconfigure-1.58.0.jar;C:\Users\Premshankar Mishra\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.58.0\opentelemetry-sdk-trace-1.58.0.jar;C:\Users\Premshankar Mishra\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.58.0\opentelemetry-sdk-1.58.0.jar;C:\Users\Premshankar Mishra\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.58.0\opentelemetry-sdk-metrics-1.58.0.jar;C:\Users\Premshankar Mishra\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.58.0\opentelemetry-sdk-logs-1.58.0.jar;C:\Users\Premshankar Mishra\.m2\repository\net\bytebuddy\byte-buddy\1.18.4\byte-buddy-1.18.4.jar;C:\Users\Premshankar Mishra\.m2\repository\org\seleniumhq\selenium\selenium-os\4.40.0\selenium-os-4.40.0.jar;C:\Users\Premshankar Mishra\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.40.0\selenium-safari-driver-4.40.0.jar;C:\Users\Premshankar Mishra\.m2\repository\org\seleniumhq\selenium\selenium-support\4.40.0\selenium-support-4.40.0.jar;C:\Users\Premshankar Mishra\.m2\repository\org\apache\poi\poi-ooxml\4.1.2\poi-ooxml-4.1.2.jar;C:\Users\Premshankar Mishra\.m2\repository\org\apache\poi\poi-ooxml-schemas\4.1.2\poi-ooxml-schemas-4.1.2.jar;C:\Users\Premshankar Mishra\.m2\repository\org\apache\xmlbeans\xmlbeans\3.1.0\xmlbeans-3.1.0.jar;C:\Users\Premshankar Mishra\.m2\repository\org\apache\commons\commons-compress\1.19\commons-compress-1.19.jar;C:\Users\Premshankar Mishra\.m2\repository\com\github\virtuald\curvesapi\1.06\curvesapi-1.06.jar;C:\Users\Premshankar Mishra\.m2\repository\org\apache\poi\poi\4.1.2\poi-4.1.2.jar;C:\Users\Premshankar Mishra\.m2\repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar;C:\Users\Premshankar Mishra\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\Premshankar Mishra\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\Premshankar Mishra\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\Premshankar Mishra\.m2\repository\org\testng\testng\7.11.0\testng-7.11.0.jar;C:\Users\Premshankar Mishra\.m2\repository\org\slf4j\slf4j-api\2.0.16\slf4j-api-2.0.16.jar;C:\Users\Premshankar Mishra\.m2\repository\org\jcommander\jcommander\1.83\jcommander-1.83.jar;C:\Users\Premshankar Mishra\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\Premshankar Mishra\.m2\repository\com\googlecode\json-simple\json-simple\1.1.1\json-simple-1.1.1.jar;C:\Users\Premshankar Mishra\.m2\repository\junit\junit\4.10\junit-4.10.jar;C:\Users\Premshankar Mishra\.m2\repository\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar;C:\Users\Premshankar Mishra\.m2\repository\com\mysql\mysql-connector-j\9.5.0\mysql-connector-j-9.5.0.jar;C:\Users\Premshankar Mishra\.m2\repository\com\google\protobuf\protobuf-java\4.31.1\protobuf-java-4.31.1.jar;C:\Users\Premshankar Mishra\.m2\repository\commons-io\commons-io\2.21.0\commons-io-2.21.0.jar;C:\Users\Premshankar Mishra\.m2\repository\com\aventstack\extentreports\5.1.2\extentreports-5.1.2.jar;C:\Users\Premshankar Mishra\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\Premshankar Mishra\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\Premshankar Mishra\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\Premshankar Mishra\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\Premshankar Mishra\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +31,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\Premshankar Mishra\AppData\Local\Temp\surefire2918497116145342306\surefirebooter-20260331235045406_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Premshankar Mishra\AppData\Local\Temp\surefire9347071054081687659\surefirebooter-20260401000401811_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="25.0.2+10-LTS-69"/>
@@ -61,12 +62,34 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="69.0"/>
   </properties>
-  <testcase name="createORGTest" classname="pack2.Org2Test" time="0.009">
-    <system-out><![CDATA[Org2 >>>>>createORGTest
+  <testcase name="createcontactTest" classname="pack1.ContactTest" time="0.01">
+    <system-out><![CDATA[execute createcontactTest
 ]]></system-out>
     <system-err><![CDATA[SLF4J(W): No SLF4J providers were found.
 SLF4J(W): Defaulting to no-operation (NOP) logger implementation
 SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
 ]]></system-err>
+  </testcase>
+  <testcase name="deleteContactTest" classname="pack1.ContactTest" time="0.023">
+    <system-out><![CDATA[execute deletecontactTest
+]]></system-out>
+  </testcase>
+  <testcase name="modifycontactTest" classname="pack1.ContactTest" time="0.002">
+    <system-out><![CDATA[execute modifycontactTest
+testURL
+edge
+]]></system-out>
+  </testcase>
+  <testcase name="createOrgTest" classname="pack2.OrgTest" time="0.001">
+    <system-out><![CDATA[execute createOrg
+]]></system-out>
+  </testcase>
+  <testcase name="modifyOrgTest" classname="pack2.OrgTest" time="0.002">
+    <system-out><![CDATA[execute modifyOrgTest
+]]></system-out>
+  </testcase>
+  <testcase name="createORGTest" classname="pack2.Org2Test" time="0.003">
+    <system-out><![CDATA[Org2 >>>>>createORGTest
+]]></system-out>
   </testcase>
 </testsuite>
