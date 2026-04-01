@@ -11,6 +11,6 @@ public class FileUtility {
 		Properties prop = new Properties();
 		prop.load(fis);
 		return prop.getProperty(key);
-
+//
 	}
 }
